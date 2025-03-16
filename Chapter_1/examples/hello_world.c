@@ -21,8 +21,13 @@ int main() {
 	
 	printf("Hello, World\n");
 	/*
-	 * Printf() is already available or default functions defined in stdio.h
-	 * it just format and print it's output to console
+	 * Printf() is already available like other default functions defined in stdio.h
+	 * it just format and print it's output to console. Anything written between the double quote sign '"' 
+	 * is argument to the function printf().
+	 * In case of white space charachers like \n, \t, \r , escape characters to print special sysmbols
+	 * like double quote itselt, format specifiers like %d, %s etc the printf() function formats it's input
+	 * accordingly.
+	 * the '\n' in printf() is linefeed( move input pointer to newline/nextline)
 	 */
 
 	return 0;
